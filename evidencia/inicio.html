@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Reservar cita</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="perfil.jpg" class="imgLogo">
+
+      <h1 class="formulario__titulo">Inicia sesión</h1>
+
+	<label for="Tipo de documento" class="formulario__label">Tipo de documento</label>
+      <select id="empleado" name="listaempleados" class="formulario__input">
+	<option>Seleccione su tipo de documento</option>
+        <option>Cedula de ciudadania</option>
+	<option>Cedula de extranjeria</option>
+        <option>Nuip</option>
+      </select>
+
+	<label for="cliente" class="formulario__label">¿Cuál es tu número de documento?</label>
+      <input
+        id="cliente"
+        type="number"
+        class="formulario__input"
+        placeholder="Indica cuál es tu número de documento"
+      />
+	  <label for="cliente" class="formulario__label">Ingresa tu contraseña</label>
+      <input
+        id="cliente"
+        type="password"
+        class="formulario__input"
+        placeholder="Indica cuál es tu nombre completo"
+      />
+
+
+      <button id="submit" class="formulario__submit"> <a href="formulario.html">Iniciar sesión </a></button>
+    </form>
+  </body>
+</html>
